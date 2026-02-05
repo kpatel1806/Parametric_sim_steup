@@ -1,0 +1,11 @@
+run_id,wall_r,roof_r,wwr,infiltration,weather_file,eui
+run_000,35.8,28.2,0.4,0.00031,USA_CA_Port.Chicago.724958_TMYx.2009-2023.epw,426.44
+run_001,32.9,47.6,0.7,0.00087,CAN_NU_Resolute.Bay.AP.719240_TMYx.2009-2023.epw,474.57
+run_002,8.1,16.6,0.48,0.00067,USA_CA_Port.Chicago.724958_TMYx.2009-2023.epw,460.96
+run_003,37.3,29.4,0.85,0.0004,USA_TX_Houston-Bush.Intercontinental.AP.722430_TMYx.2009-2023.epw,472.58
+run_004,9.5,14.8,0.33,0.00036,USA_CA_Los.Angeles.Intl.AP.722950_TMYx.2009-2023.epw,435.83
+run_005,28.7,25.3,0.61,0.00092,USA_MN_Minneapolis-St.Paul.Intl.AP.726580_TMYx.2009-2023.epw,471.19
+run_006,53.1,15.3,0.64,0.00091,USA_CA_Los.Angeles.Intl.AP.722950_TMYx.2009-2023.epw,475.38
+run_007,6.8,34.3,0.14,0.0006,USA_CA_Port.Chicago.724958_TMYx.2009-2023.epw,426.8
+run_008,58.4,32.1,0.62,0.00014,USA_FL_Miami.Exec.AP.722029_TMYx.2009-2023.epw,439.05
+run_009,51.7,42.5,0.73,0.00036,CAN_MB_Winnipeg-Richardson.Intl.AP.718520_TMYx.2009-2023.epw,457.27

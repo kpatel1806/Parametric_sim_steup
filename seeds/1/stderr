@@ -1,0 +1,2 @@
+Ignoring debug-1.7.1 because its extensions are not built. Try: gem pristine debug --version 1.7.1
+Ignoring rbs-2.8.2 because its extensions are not built. Try: gem pristine rbs --version 2.8.2

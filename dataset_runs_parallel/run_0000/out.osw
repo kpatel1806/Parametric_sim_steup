@@ -1,0 +1,574 @@
+{
+   "completed_at" : "20260205T192142Z",
+   "completed_status" : "Success",
+   "current_step" : 6,
+   "eplusout_err" : "Program Version,EnergyPlus, Version 25.2.0-cf7368216c, YMD=2026.02.05 19:14,\n   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval = ECONOMIZER MAX OA FRACTION 70 PCT DEFAULT\n   **   ~~~   ** Schedule Type Limits Name is empty.\n   **   ~~~   ** Schedule will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval = OFFICEMEDIUM HVACOPERATIONSCHD DEFAULT\n   **   ~~~   ** Schedule Type Limits Name is empty.\n   **   ~~~   ** Schedule will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval = OFFICEMEDIUM HVACOPERATIONSCHD SMRDSN|WKDY DAY\n   **   ~~~   ** Schedule Type Limits Name is empty.\n   **   ~~~   ** Schedule will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval = OFFICEMEDIUM HVACOPERATIONSCHD SUMMER DESIGN DAY\n   **   ~~~   ** Schedule Type Limits Name is empty.\n   **   ~~~   ** Schedule will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval = OFFICEMEDIUM HVACOPERATIONSCHD WINTER DESIGN DAY\n   **   ~~~   ** Schedule Type Limits Name is empty.\n   **   ~~~   ** Schedule will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval = OFFICEMEDIUM HVACOPERATIONSCHD WNTRDSN|SAT DAY\n   **   ~~~   ** Schedule Type Limits Name is empty.\n   **   ~~~   ** Schedule will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Year = OFFICEMEDIUM HVACOPERATIONSCHD\n   **   ~~~   ** Schedule Type Limits Name is empty.\n   **   ~~~   ** Schedule will not be validated.\n   ************* Beginning Zone Sizing Calculations\n   ** Warning ** CheckUsedConstructions: There are 24 nominally unused constructions in input.\n   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;\n   ** Warning ** Seems like you already tried to get a Handle on this Actuator 1times.\n   **   ~~~   ** Occurred for componentType='SCHEDULE:YEAR', controlType='SCHEDULE VALUE', uniqueKey='OFFICEMEDIUM CLGSETP_SCH_NO_SETBACK'.\n   **   ~~~   ** You should take note that there is a risk of overwriting.\n   ** Warning ** Seems like you already tried to get a Handle on this Actuator 1times.\n   **   ~~~   ** Occurred for componentType='SCHEDULE:YEAR', controlType='SCHEDULE VALUE', uniqueKey='OFFICEMEDIUM HTGSETP_SCH_PACU_VAV_BOT'.\n   **   ~~~   ** You should take note that there is a risk of overwriting.\n   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.\n   **   ~~~   ** ..discovered in Daylighting:Controls=\"PERIMETER_BOT_ZN_1 ZN DAYLIGHTINGCONTROLS\", only 0.363 of the zone or space is controlled.\n   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.\n   **   ~~~   ** ..discovered in Daylighting:Controls=\"PERIMETER_BOT_ZN_2 ZN DAYLIGHTINGCONTROLS\", only 0.373 of the zone or space is controlled.\n   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.\n   **   ~~~   ** ..discovered in Daylighting:Controls=\"PERIMETER_BOT_ZN_3 ZN DAYLIGHTINGCONTROLS\", only 0.363 of the zone or space is controlled.\n   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.\n   **   ~~~   ** ..discovered in Daylighting:Controls=\"PERIMETER_BOT_ZN_4 ZN DAYLIGHTINGCONTROLS\", only 0.373 of the zone or space is controlled.\n   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.\n   **   ~~~   ** ..discovered in Daylighting:Controls=\"PERIMETER_MID_ZN_1 ZN DAYLIGHTINGCONTROLS\", only 0.363 of the zone or space is controlled.\n   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.\n   **   ~~~   ** ..discovered in Daylighting:Controls=\"PERIMETER_MID_ZN_2 ZN DAYLIGHTINGCONTROLS\", only 0.373 of the zone or space is controlled.\n   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.\n   **   ~~~   ** ..discovered in Daylighting:Controls=\"PERIMETER_MID_ZN_3 ZN DAYLIGHTINGCONTROLS\", only 0.363 of the zone or space is controlled.\n   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.\n   **   ~~~   ** ..discovered in Daylighting:Controls=\"PERIMETER_MID_ZN_4 ZN DAYLIGHTINGCONTROLS\", only 0.373 of the zone or space is controlled.\n   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.\n   **   ~~~   ** ..discovered in Daylighting:Controls=\"PERIMETER_TOP_ZN_1 ZN DAYLIGHTINGCONTROLS\", only 0.363 of the zone or space is controlled.\n   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.\n   **   ~~~   ** ..discovered in Daylighting:Controls=\"PERIMETER_TOP_ZN_2 ZN DAYLIGHTINGCONTROLS\", only 0.373 of the zone or space is controlled.\n   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.\n   **   ~~~   ** ..discovered in Daylighting:Controls=\"PERIMETER_TOP_ZN_3 ZN DAYLIGHTINGCONTROLS\", only 0.363 of the zone or space is controlled.\n   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.\n   **   ~~~   ** ..discovered in Daylighting:Controls=\"PERIMETER_TOP_ZN_4 ZN DAYLIGHTINGCONTROLS\", only 0.373 of the zone or space is controlled.\n   ************* Beginning System Sizing Calculations\n   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.\n   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = CORE_BOTTOM ZN VAV TERMINAL\n   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.\n   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = CORE_MID ZN VAV TERMINAL\n   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.\n   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = CORE_TOP ZN VAV TERMINAL\n   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.\n   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = PERIMETER_BOT_ZN_1 ZN VAV TERMINAL\n   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.\n   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = PERIMETER_BOT_ZN_2 ZN VAV TERMINAL\n   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.\n   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = PERIMETER_BOT_ZN_3 ZN VAV TERMINAL\n   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.\n   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = PERIMETER_BOT_ZN_4 ZN VAV TERMINAL\n   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.\n   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = PERIMETER_MID_ZN_1 ZN VAV TERMINAL\n   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.\n   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = PERIMETER_MID_ZN_2 ZN VAV TERMINAL\n   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.\n   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = PERIMETER_MID_ZN_3 ZN VAV TERMINAL\n   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.\n   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = PERIMETER_MID_ZN_4 ZN VAV TERMINAL\n   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.\n   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = PERIMETER_TOP_ZN_1 ZN VAV TERMINAL\n   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.\n   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = PERIMETER_TOP_ZN_2 ZN VAV TERMINAL\n   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.\n   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = PERIMETER_TOP_ZN_3 ZN VAV TERMINAL\n   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.\n   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = PERIMETER_TOP_ZN_4 ZN VAV TERMINAL\n   ************* Beginning Plant Sizing Calculations\n   ** Warning ** GetDXCoils: Coil:Cooling:DX:TwoSpeed=\"5 ZONE PVAV 2SPD DX CLG COIL 405KBTU/HR 9.8EER\", invalid\n   **   ~~~   ** ...Part Load Fraction Correlation Curve Name = COILCLGDXEIRRATIO_FQFRAC has out of range value.\n   **   ~~~   ** ...Curve maximum must be <= 1.0, curve max at PLR = 0.99 is 1.018\n   **   ~~~   ** ...Setting curve maximum to 1.0 and simulation continues.\n   ** Warning ** Output:Meter: invalid Key Name=\"DISTRICTHEATINGWATER:FACILITY\" - not found.\n   ** Warning ** Output:Meter: invalid Key Name=\"DISTRICTCOOLING:FACILITY\" - not found.\n   ** Warning ** Output:Meter:MeterFileOnly requested for \"Electricity:Facility\" (TimeStep), already on \"Output:Meter\". Will report to both eplusout.eso and eplusout.mtr\n   ************* Testing Individual Branch Integrity\n   ************* All Branches passed integrity testing\n   ************* Testing Individual Supply Air Path Integrity\n   ************* All Supply Air Paths passed integrity testing\n   ************* Testing Individual Return Air Path Integrity\n   ************* All Return Air Paths passed integrity testing\n   ************* No node connection errors were found.\n   ************* Beginning Simulation\n   ** Warning ** Processing Monthly Tabular Reports: Variable names not valid for this simulation\n   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual variables.\n   ** Warning ** CalcEquipmentFlowRates: \"CORE_BOTTOM SERVICE WATER USE 0.1678GPM 140F\" - Target water temperature is greater than the hot water temperature by (0.61 C)\n   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 06:00 - 06:10\n   **   ~~~   ** ...target water temperature     = 60.00 C\n   **   ~~~   ** ...hot water temperature        = 59.39 C\n   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.\n   ** Warning ** CalcEquipmentFlowRates: \"CORE_MID SERVICE WATER USE 0.1678GPM 140F\" - Target water temperature is greater than the hot water temperature by (0.61 C)\n   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 06:00 - 06:10\n   **   ~~~   ** ...target water temperature     = 60.00 C\n   **   ~~~   ** ...hot water temperature        = 59.39 C\n   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.\n   ** Warning ** CalcEquipmentFlowRates: \"CORE_TOP SERVICE WATER USE 0.1678GPM 140F\" - Target water temperature is greater than the hot water temperature by (0.61 C)\n   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 06:00 - 06:10\n   **   ~~~   ** ...target water temperature     = 60.00 C\n   **   ~~~   ** ...hot water temperature        = 59.39 C\n   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.\n   ** Warning ** CalcEquipmentFlowRates: \"PERIMETER_BOT_ZN_1 SERVICE WATER USE 0.0354GPM 140F\" - Target water temperature is greater than the hot water temperature by (0.61 C)\n   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 06:00 - 06:10\n   **   ~~~   ** ...target water temperature     = 60.00 C\n   **   ~~~   ** ...hot water temperature        = 59.39 C\n   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.\n   ** Warning ** CalcEquipmentFlowRates: \"PERIMETER_BOT_ZN_2 SERVICE WATER USE 0.0224GPM 140F\" - Target water temperature is greater than the hot water temperature by (0.61 C)\n   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 06:00 - 06:10\n   **   ~~~   ** ...target water temperature     = 60.00 C\n   **   ~~~   ** ...hot water temperature        = 59.39 C\n   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.\n   ** Warning ** CalcEquipmentFlowRates: \"PERIMETER_BOT_ZN_3 SERVICE WATER USE 0.0354GPM 140F\" - Target water temperature is greater than the hot water temperature by (0.61 C)\n   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 06:00 - 06:10\n   **   ~~~   ** ...target water temperature     = 60.00 C\n   **   ~~~   ** ...hot water temperature        = 59.39 C\n   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.\n   ** Warning ** CalcEquipmentFlowRates: \"PERIMETER_BOT_ZN_4 SERVICE WATER USE 0.0224GPM 140F\" - Target water temperature is greater than the hot water temperature by (0.61 C)\n   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 06:00 - 06:10\n   **   ~~~   ** ...target water temperature     = 60.00 C\n   **   ~~~   ** ...hot water temperature        = 59.39 C\n   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.\n   ** Warning ** CalcEquipmentFlowRates: \"PERIMETER_MID_ZN_1 SERVICE WATER USE 0.0354GPM 140F\" - Target water temperature is greater than the hot water temperature by (0.61 C)\n   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 06:00 - 06:10\n   **   ~~~   ** ...target water temperature     = 60.00 C\n   **   ~~~   ** ...hot water temperature        = 59.39 C\n   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.\n   ** Warning ** CalcEquipmentFlowRates: \"PERIMETER_MID_ZN_2 SERVICE WATER USE 0.0224GPM 140F\" - Target water temperature is greater than the hot water temperature by (0.61 C)\n   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 06:00 - 06:10\n   **   ~~~   ** ...target water temperature     = 60.00 C\n   **   ~~~   ** ...hot water temperature        = 59.39 C\n   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.\n   ** Warning ** CalcEquipmentFlowRates: \"PERIMETER_MID_ZN_3 SERVICE WATER USE 0.0354GPM 140F\" - Target water temperature is greater than the hot water temperature by (0.61 C)\n   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 06:00 - 06:10\n   **   ~~~   ** ...target water temperature     = 60.00 C\n   **   ~~~   ** ...hot water temperature        = 59.39 C\n   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.\n   ** Warning ** CalcEquipmentFlowRates: \"PERIMETER_MID_ZN_4 SERVICE WATER USE 0.0224GPM 140F\" - Target water temperature is greater than the hot water temperature by (0.61 C)\n   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 06:00 - 06:10\n   **   ~~~   ** ...target water temperature     = 60.00 C\n   **   ~~~   ** ...hot water temperature        = 59.39 C\n   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.\n   ** Warning ** CalcEquipmentFlowRates: \"PERIMETER_TOP_ZN_1 SERVICE WATER USE 0.0354GPM 140F\" - Target water temperature is greater than the hot water temperature by (0.61 C)\n   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 06:00 - 06:10\n   **   ~~~   ** ...target water temperature     = 60.00 C\n   **   ~~~   ** ...hot water temperature        = 59.39 C\n   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.\n   ** Warning ** CalcEquipmentFlowRates: \"PERIMETER_TOP_ZN_2 SERVICE WATER USE 0.0224GPM 140F\" - Target water temperature is greater than the hot water temperature by (0.61 C)\n   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 06:00 - 06:10\n   **   ~~~   ** ...target water temperature     = 60.00 C\n   **   ~~~   ** ...hot water temperature        = 59.39 C\n   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.\n   ** Warning ** CalcEquipmentFlowRates: \"PERIMETER_TOP_ZN_3 SERVICE WATER USE 0.0354GPM 140F\" - Target water temperature is greater than the hot water temperature by (0.61 C)\n   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 06:00 - 06:10\n   **   ~~~   ** ...target water temperature     = 60.00 C\n   **   ~~~   ** ...hot water temperature        = 59.39 C\n   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.\n   ** Warning ** CalcEquipmentFlowRates: \"PERIMETER_TOP_ZN_4 SERVICE WATER USE 0.0224GPM 140F\" - Target water temperature is greater than the hot water temperature by (0.61 C)\n   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/01 06:00 - 06:10\n   **   ~~~   ** ...target water temperature     = 60.00 C\n   **   ~~~   ** ...hot water temperature        = 59.39 C\n   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.\n   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 01/02 05:40 - 05:50\n   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge\n   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on each max iteration exceeded.\n   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 01/02 05:45 - 05:50\n   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge\n   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 01/02 06:17 - 06:20\n   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge\n   ** Warning ** WetBulb not converged after 101 iterations(PsyTwbFnTdbWPb)\n   **   ~~~   **  Routine=Unknown, Environment=RUN PERIOD 1, at Simulation time=01/02 19:00 - 19:10\n   **   ~~~   **  Input Temperature = 6.55\n   **   ~~~   **  Input Humidity Ratio= 1.064357E-003\n   **   ~~~   **  Input Pressure = 103183.31\n   **   ~~~   **  Resultant Temperature= 0.13\n   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 01/13 06:40 - 06:50\n   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge\n   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 01/13 06:45 - 06:50\n   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge\n   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 01/18 06:16 - 06:17\n   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge\n   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 01/20 06:30 - 06:40\n   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge\n   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 01/20 06:33 - 06:37\n   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge\n   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 01/26 13:40 - 13:50\n   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge\n   ** Warning ** Temperature out of range [-100. to 200.] (PsyPsatFnTemp)\n   **   ~~~   **  Routine=PsyTwbFnTdbWPb, Environment=RUN PERIOD 1, at Simulation time=02/06 23:18 - 23:20\n   **   ~~~   **  Input Temperature=-427.50\n   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 02/18 05:01 - 05:02\n   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge\n   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 02/20 06:40 - 06:50\n   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge\n   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 02/20 06:45 - 06:50\n   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge\n   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 02/21 06:05 - 06:10\n   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge\n   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 02/23 06:25 - 06:27\n   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-ELECTRICITY\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-DISTILLATE OIL\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-RESIDUAL OIL\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-NATURAL GAS\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-COAL\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ************* Simulation Error Summary *************\n   ************* There are 2 unused schedules in input.\n   ************* There are 5 unused day schedules in input.\n   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.\n   *************\n   ************* ===== Recurring Error Summary =====\n   ************* The following recurring error messages occurred.\n   *************\n   *************  ** Warning ** \"CORE_BOTTOM SERVICE WATER USE 0.1678GPM 140F\" - Target water temperature should be less than or equal to the hot water temperature error continues...\n   *************  **   ~~~   **   This error occurred 454263 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=1.956934  Min=0.064896\n   *************\n   *************  ** Warning ** \"CORE_MID SERVICE WATER USE 0.1678GPM 140F\" - Target water temperature should be less than or equal to the hot water temperature error continues...\n   *************  **   ~~~   **   This error occurred 454263 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=1.956934  Min=0.064896\n   *************\n   *************  ** Warning ** \"CORE_TOP SERVICE WATER USE 0.1678GPM 140F\" - Target water temperature should be less than or equal to the hot water temperature error continues...\n   *************  **   ~~~   **   This error occurred 454263 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=1.956934  Min=0.064896\n   *************\n   *************  ** Warning ** \"PERIMETER_BOT_ZN_1 SERVICE WATER USE 0.0354GPM 140F\" - Target water temperature should be less than or equal to the hot water temperature error continues...\n   *************  **   ~~~   **   This error occurred 454263 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=1.956934  Min=0.064896\n   *************\n   *************  ** Warning ** \"PERIMETER_BOT_ZN_2 SERVICE WATER USE 0.0224GPM 140F\" - Target water temperature should be less than or equal to the hot water temperature error continues...\n   *************  **   ~~~   **   This error occurred 454263 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=1.956934  Min=0.064896\n   *************\n   *************  ** Warning ** \"PERIMETER_BOT_ZN_3 SERVICE WATER USE 0.0354GPM 140F\" - Target water temperature should be less than or equal to the hot water temperature error continues...\n   *************  **   ~~~   **   This error occurred 454263 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=1.956934  Min=0.064896\n   *************\n   *************  ** Warning ** \"PERIMETER_BOT_ZN_4 SERVICE WATER USE 0.0224GPM 140F\" - Target water temperature should be less than or equal to the hot water temperature error continues...\n   *************  **   ~~~   **   This error occurred 454263 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=1.956934  Min=0.064896\n   *************\n   *************  ** Warning ** \"PERIMETER_MID_ZN_1 SERVICE WATER USE 0.0354GPM 140F\" - Target water temperature should be less than or equal to the hot water temperature error continues...\n   *************  **   ~~~   **   This error occurred 454263 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=1.956934  Min=0.064896\n   *************\n   *************  ** Warning ** \"PERIMETER_MID_ZN_2 SERVICE WATER USE 0.0224GPM 140F\" - Target water temperature should be less than or equal to the hot water temperature error continues...\n   *************  **   ~~~   **   This error occurred 454263 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=1.956934  Min=0.064896\n   *************\n   *************  ** Warning ** \"PERIMETER_MID_ZN_3 SERVICE WATER USE 0.0354GPM 140F\" - Target water temperature should be less than or equal to the hot water temperature error continues...\n   *************  **   ~~~   **   This error occurred 454263 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=1.956934  Min=0.064896\n   *************\n   *************  ** Warning ** \"PERIMETER_MID_ZN_4 SERVICE WATER USE 0.0224GPM 140F\" - Target water temperature should be less than or equal to the hot water temperature error continues...\n   *************  **   ~~~   **   This error occurred 454263 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=1.956934  Min=0.064896\n   *************\n   *************  ** Warning ** \"PERIMETER_TOP_ZN_1 SERVICE WATER USE 0.0354GPM 140F\" - Target water temperature should be less than or equal to the hot water temperature error continues...\n   *************  **   ~~~   **   This error occurred 454263 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=1.956934  Min=0.064896\n   *************\n   *************  ** Warning ** \"PERIMETER_TOP_ZN_2 SERVICE WATER USE 0.0224GPM 140F\" - Target water temperature should be less than or equal to the hot water temperature error continues...\n   *************  **   ~~~   **   This error occurred 454263 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=1.956934  Min=0.064896\n   *************\n   *************  ** Warning ** \"PERIMETER_TOP_ZN_3 SERVICE WATER USE 0.0354GPM 140F\" - Target water temperature should be less than or equal to the hot water temperature error continues...\n   *************  **   ~~~   **   This error occurred 454263 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=1.956934  Min=0.064896\n   *************\n   *************  ** Warning ** \"PERIMETER_TOP_ZN_4 SERVICE WATER USE 0.0224GPM 140F\" - Target water temperature should be less than or equal to the hot water temperature error continues...\n   *************  **   ~~~   **   This error occurred 454263 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=1.956934  Min=0.064896\n   *************\n   *************  ** Warning ** Plant loop falling below lower temperature limit, PlantLoop=\"MAIN SERVICE WATER LOOP\"\n   *************  **   ~~~   **   This error occurred 16294 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Min=30.575828\n   *************\n   *************  ** Warning ** WetBulb not converged after max iterations(PsyTwbFnTdbWPb)\n   *************  **   ~~~   **   This error occurred 2 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************\n   *************  ** Warning ** Temperature out of range [-100. to 200.] (PsyPsatFnTemp)\n   *************  **   ~~~   **   This error occurred 5 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=-119.067066 C  Min=-427.507553 C\n   *************\n   *************  ** Warning ** SimHVAC: Exceeding Maximum iterations for all HVAC loops, during RUN PERIOD 1 continues\n   *************  **   ~~~   **   This error occurred 23 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************\n   *************\n   ************* ===== Final Error Summary =====\n   ************* The following error categories occurred.  Consider correcting or noting.\n   ************* Nominally Unused Constructions\n   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause\n   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm\n   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).\n   *************\n   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.\n   ************* EnergyPlus Sizing Error Summary. During Sizing: 30 Warning; 0 Severe Errors.\n   ************* EnergyPlus Completed Successfully-- 6830345 Warning; 0 Severe Errors; Elapsed Time=00hr 06min 17.61sec\n",
+   "file_paths" : 
+   [
+      "/work/dataset_runs_parallel/run_0000/generated_files",
+      "./files",
+      "./weather",
+      "../../files",
+      "../../weather",
+      "./"
+   ],
+   "hash" : "BF78FBA8",
+   "measure_paths" : 
+   [
+      "/work/measures"
+   ],
+   "run_options" : null,
+   "seed_file" : null,
+   "started_at" : "20260205T191201Z",
+   "steps" : 
+   [
+      {
+         "arguments" : 
+         {
+            "building_type" : "MediumOffice",
+            "climate_zone" : "ASHRAE 169-2013-4A",
+            "template" : "90.1-2010"
+         },
+         "measure_dir_name" : "CreateDOEPrototypeBuilding",
+         "result" : 
+         {
+            "completed_at" : "20260205T191412Z",
+            "measure_class_name" : "CreateDOEPrototypeBuilding",
+            "measure_display_name" : "Create DOE Prototype Building",
+            "measure_name" : "create_doe_prototype_building",
+            "measure_taxonomy" : "Whole Building.Space Types",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "be90fd0b-a651-467a-bc8d-29d310b0f937",
+            "measure_version_id" : "7de8ccab-e8a4-45d9-b361-4b90f6c1e1e7",
+            "measure_version_modified" : "20250801T145833Z",
+            "measure_xml_checksum" : "057E8D9D",
+            "started_at" : "20260205T191229Z",
+            "stderr" : "",
+            "stdout" : "[openstudio.model.YearDescription] <Error> 'UseWeatherFile' is selected in YearDescription, but there are no weather file set for the model.\n[openstudio.model.YearDescription] <Error> 'UseWeatherFile' is selected in YearDescription, but there are no weather file set for the model.\n",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_info" : 
+            [
+               "Using OpenStudio Standards version 0.8.5 with template 90.1-2010_MediumOffice.",
+               "Loading OpenStudio Standards data for",
+               "Loading OpenStudio Standards data for 90.1-2010",
+               "Loaded space type map from osm file: ../../../data/geometry/ASHRAEMediumOffice.osm",
+               "Extracting weather files from OpenStudio CLI to /work/dataset_runs_parallel/run_0000/run/000_CreateDOEPrototypeBuilding/extracted_files/weather",
+               "Found 3 ground temperature depths in the EPW file '/work/dataset_runs_parallel/run_0000/run/000_CreateDOEPrototypeBuilding/extracted_files/weather/USA_NY_New.York-John.F.Kennedy.Intl.AP.744860_TMY3.epw'",
+               "Successive data points (1999-Jan-31 to 1995-Feb-01, ending on line 753) are greater than 1 day apart in EPW file '/work/dataset_runs_parallel/run_0000/run/000_CreateDOEPrototypeBuilding/extracted_files/weather/USA_NY_New.York-John.F.Kennedy.Intl.AP.744860_TMY3.epw'. Data will be treated as typical (TMY)",
+               "Found 3 ground temperature depths in the EPW file '/work/dataset_runs_parallel/run_0000/run/000_CreateDOEPrototypeBuilding/extracted_files/weather/USA_NY_New.York-John.F.Kennedy.Intl.AP.744860_TMY3.epw'",
+               "Successive data points (1999-Jan-31 to 1995-Feb-01, ending on line 753) are greater than 1 day apart in EPW file '/work/dataset_runs_parallel/run_0000/run/000_CreateDOEPrototypeBuilding/extracted_files/weather/USA_NY_New.York-John.F.Kennedy.Intl.AP.744860_TMY3.epw'. Data will be treated as typical (TMY)",
+               "Set Site information to New York-John F Kennedy Intl AP_NY_USA.",
+               "Added design day New.York-John.F.Kennedy.Intl.AP_NY_USA Ann Clg .4% Condns DB=>MWB.",
+               "Added design day New.York-John.F.Kennedy.Intl.AP_NY_USA Ann Clg .4% Condns WB=>MDB.",
+               "Added design day New.York-John.F.Kennedy.Intl.AP_NY_USA Ann Htg 99.6% Condns DB.",
+               "Setting Climate Zone to 4A",
+               "Site Water Mains Temperature mean OA dry bulb is 12.466666666666669. Delta OA dry bulb is 25.2.",
+               "Started applying space types (loads)",
+               "Office WholeBuilding - Md Office had no people, one has been created.",
+               "Office WholeBuilding - Md Office set occupancy to 5.0 people/1000 ft^2.",
+               "Office WholeBuilding - Md Office had no lights, one has been created.",
+               "Office WholeBuilding - Md Office set LPD to 0.9 W/ft^2.",
+               "Office WholeBuilding - Md Office had no electric equipment, one has been created.",
+               "Office WholeBuilding - Md Office set electric EPD to 0.75 W/ft^2.",
+               "Office WholeBuilding - Md Office had no ventilation specification, one has been created.",
+               "Office WholeBuilding - Md Office set ventilation per area to 0.085 cfm/ft^2.",
+               "Office WholeBuilding - Md Office set occupancy schedule to OfficeMedium BLDG_OCC_SCH.",
+               "Office WholeBuilding - Md Office set occupant activity schedule to OfficeMedium ACTIVITY_SCH.",
+               "Office WholeBuilding - Md Office set lighting schedule to OfficeMedium BLDG_LIGHT_SCH_2010.",
+               "Office WholeBuilding - Md Office set electric equipment schedule to OfficeMedium BLDG_EQUIP_SCH_2010.",
+               "Office WholeBuilding - Md Office set heating setpoint schedule to OfficeMedium HTGSETP_SCH_PACU_VAV_bot.",
+               "Office WholeBuilding - Md Office set cooling setpoint schedule to OfficeMedium CLGSETP_SCH_NO_SETBACK.",
+               "Finished applying space types (loads)",
+               "User-inputed airtightness design value 13.8 (m^3/h-m^2) at 75.0 Pa converts to 2.0531858 (m^3/h-m^2) at 4 Pa",
+               "4-sided area = 1977.67 m^2, 5-sided area = 3638.4 m^2, 6-sided area = 5299.13 m^2.",
+               "5-sided infiltration design value 0.0005703 (m^3/s-m^2) converted to 0.0005703 (m^3/s-m^2) based on 5-sided area 3638.4 m^2 and 5-sided area 3638.4 m^2 excluding ground boundary surfaces for energyplus.",
+               "The largest airloop or HVAC system serves 0.0 m^2, which is less than 5% of the building area 4982.2 m^2. Attempting to use building hours of operation schedule instead.",
+               "Using building type MediumOffice for model building type MediumOffice.",
+               "The modeled started with 0 infiltration objects and 0 effective leakage area objects.",
+               "The modeled finished with 30 infiltration objects.",
+               "Started creating thermal zones",
+               "Finished creating thermal zones",
+               "Started Adding HVAC",
+               "Adding Packaged VAV for 5 zones.",
+               "Adding Packaged VAV for 5 zones.",
+               "Adding Packaged VAV for 5 zones.",
+               "Finished adding HVAC",
+               "Started applying constructions",
+               "Adding construction set: 90.1-2010-ASHRAE 169-2013-4A-MediumOffice--is_residentialNo",
+               "Adding construction Typical Insulated Exterior Mass Floor R-11.49.",
+               "Adding construction Typical Insulated Steel Framed Exterior Wall R-15.63.",
+               "Adding construction Typical IEAD Roof R-20.83.",
+               "Adding construction Typical Interior Floor.",
+               "Adding construction Typical Interior Wall.",
+               "Adding construction Typical Interior Ceiling.",
+               "Adding construction Typical Insulated Carpeted 6in Slab Floor.",
+               "Adding construction Typical Insulated Basement Mass Wall.",
+               "Adding construction U 0.55 SHGC 0.4 Simple Glazing.",
+               "Adding construction Typical Insulated Metal Door R-1.43.",
+               "Adding construction U 0.85 SHGC 0.4 Simple Glazing.",
+               "Adding construction Typical Overhead Door R-2.0.",
+               "Adding construction U 1.17 SHGC 0.49 Simple Glazing.",
+               "Adding construction Typical Interior Window.",
+               "Adding construction Typical Interior Door.",
+               "Adding construction Typical Interior Partition.",
+               "Construction set for template =90.1-2010, climate zone set =ClimateZone 4A, building type = Office, space type = WholeBuilding - Md Office, is residential = No was not found in standards_data",
+               "Adding construction set: 90.1-2010-ASHRAE 169-2013-4A-MediumOffice-Plenum-is_residentialNo",
+               "Adding construction Plenum Acoustical Tile.",
+               "Finished applying constructions",
+               "Started building type specific HVAC adjustments",
+               "Finished building type specific adjustments",
+               "Added door infiltration",
+               "Added internal mass 'Core_mid Mass' to space 'Core_mid'.",
+               "Added internal mass 'Perimeter_top_ZN_1 Mass' to space 'Perimeter_top_ZN_1'.",
+               "Added internal mass 'Perimeter_top_ZN_2 Mass' to space 'Perimeter_top_ZN_2'.",
+               "Added internal mass 'Core_top Mass' to space 'Core_top'.",
+               "Added internal mass 'Perimeter_mid_ZN_4 Mass' to space 'Perimeter_mid_ZN_4'.",
+               "Added internal mass 'Core_bottom Mass' to space 'Core_bottom'.",
+               "Added internal mass 'Perimeter_top_ZN_3 Mass' to space 'Perimeter_top_ZN_3'.",
+               "Added internal mass 'Perimeter_mid_ZN_3 Mass' to space 'Perimeter_mid_ZN_3'.",
+               "Added internal mass 'TopFloor_Plenum Mass' to space 'TopFloor_Plenum'.",
+               "Added internal mass 'Perimeter_top_ZN_4 Mass' to space 'Perimeter_top_ZN_4'.",
+               "Added internal mass 'Perimeter_bot_ZN_2 Mass' to space 'Perimeter_bot_ZN_2'.",
+               "Added internal mass 'MidFloor_Plenum Mass' to space 'MidFloor_Plenum'.",
+               "Added internal mass 'Perimeter_mid_ZN_1 Mass' to space 'Perimeter_mid_ZN_1'.",
+               "Added internal mass 'Perimeter_bot_ZN_1 Mass' to space 'Perimeter_bot_ZN_1'.",
+               "Added internal mass 'FirstFloor_Plenum Mass' to space 'FirstFloor_Plenum'.",
+               "Added internal mass 'Perimeter_mid_ZN_2 Mass' to space 'Perimeter_mid_ZN_2'.",
+               "Added internal mass 'Perimeter_bot_ZN_3 Mass' to space 'Perimeter_bot_ZN_3'.",
+               "Added internal mass 'Perimeter_bot_ZN_4 Mass' to space 'Perimeter_bot_ZN_4'.",
+               "Finished adding internal mass",
+               "Started Adding Service Water Heating",
+               "Added water heater called 100gal Natural Gas Water Heater - 100kBtu/hr",
+               "Added circulating SWH loop called Main Service Water Loop",
+               "Adding water fixture to Main Service Water Loop.",
+               "Added Core_bottom Service Water Use 0.1678gpm 140F.",
+               "Adding water fixture to Main Service Water Loop.",
+               "Added Core_mid Service Water Use 0.1678gpm 140F.",
+               "Adding water fixture to Main Service Water Loop.",
+               "Added Core_top Service Water Use 0.1678gpm 140F.",
+               "Adding water fixture to Main Service Water Loop.",
+               "Added Perimeter_bot_ZN_1 Service Water Use 0.0354gpm 140F.",
+               "Adding water fixture to Main Service Water Loop.",
+               "Added Perimeter_bot_ZN_2 Service Water Use 0.0224gpm 140F.",
+               "Adding water fixture to Main Service Water Loop.",
+               "Added Perimeter_bot_ZN_3 Service Water Use 0.0354gpm 140F.",
+               "Adding water fixture to Main Service Water Loop.",
+               "Added Perimeter_bot_ZN_4 Service Water Use 0.0224gpm 140F.",
+               "Adding water fixture to Main Service Water Loop.",
+               "Added Perimeter_mid_ZN_1 Service Water Use 0.0354gpm 140F.",
+               "Adding water fixture to Main Service Water Loop.",
+               "Added Perimeter_mid_ZN_2 Service Water Use 0.0224gpm 140F.",
+               "Adding water fixture to Main Service Water Loop.",
+               "Added Perimeter_mid_ZN_3 Service Water Use 0.0354gpm 140F.",
+               "Adding water fixture to Main Service Water Loop.",
+               "Added Perimeter_mid_ZN_4 Service Water Use 0.0224gpm 140F.",
+               "Adding water fixture to Main Service Water Loop.",
+               "Added Perimeter_top_ZN_1 Service Water Use 0.0354gpm 140F.",
+               "Adding water fixture to Main Service Water Loop.",
+               "Added Perimeter_top_ZN_2 Service Water Use 0.0224gpm 140F.",
+               "Adding water fixture to Main Service Water Loop.",
+               "Added Perimeter_top_ZN_3 Service Water Use 0.0354gpm 140F.",
+               "Adding water fixture to Main Service Water Loop.",
+               "Added Perimeter_top_ZN_4 Service Water Use 0.0224gpm 140F.",
+               "Added 15 water fixtures to model",
+               "Finished adding Service Water Heating",
+               "Started adding exterior lights",
+               "Finished adding exterior lights",
+               "Set Daylight Saving Start Date to 2nd Sunday in March and end date to 1st Sunday in November.",
+               "Started simulation /work/dataset_runs_parallel/run_0000/run/000_CreateDOEPrototypeBuilding/output/SR1 at 19:12:50.816",
+               "does not have an Output Variable attached.",
+               "does not have an Output Meter attached.",
+               "Finished simulation /work/dataset_runs_parallel/run_0000/run/000_CreateDOEPrototypeBuilding/output/SR1 at 19:14:06.517",
+               "Started applying multizone vav OA sizing.",
+               "For 5 Zone PVAV: Zone Core_bottom ZN has a ventilation effectiveness of 0.55.  Increasing to 0.6 by increasing minimum damper position from 0.2 to 0.22.",
+               "For 5 Zone PVAV: Zone Perimeter_bot_ZN_1 ZN has a ventilation effectiveness of 0.58.  Increasing to 0.6 by increasing minimum damper position from 0.2 to 0.21.",
+               "For 5 Zone PVAV: Zone Perimeter_bot_ZN_3 ZN has a ventilation effectiveness of 0.38.  Increasing to 0.6 by increasing minimum damper position from 0.2 to 0.29.",
+               "For 5 Zone PVAV: the multizone outdoor air calculation method was applied.  A simple summation of the zone outdoor air requirements gives a value of 1519 cfm.  Applying the multizone method gives a value of 4021 cfm, with an original system ventilation effectiveness of 0.38.  After increasing the minimum damper position in 3 critical zones, the resulting requirement is 2532 cfm with a system ventilation effectiveness of 0.6.",
+               "For 5 Zone PVAV 1: Zone Core_mid ZN has a ventilation effectiveness of 0.21.  Increasing to 0.6 by increasing minimum damper position from 0.2 to 0.34.",
+               "For 5 Zone PVAV 1: Zone Perimeter_mid_ZN_3 ZN has a ventilation effectiveness of 0.47.  Increasing to 0.6 by increasing minimum damper position from 0.2 to 0.25.",
+               "For 5 Zone PVAV 1: the multizone outdoor air calculation method was applied.  A simple summation of the zone outdoor air requirements gives a value of 1519 cfm.  Applying the multizone method gives a value of 7258 cfm, with an original system ventilation effectiveness of 0.21.  After increasing the minimum damper position in 2 critical zones, the resulting requirement is 2532 cfm with a system ventilation effectiveness of 0.6.",
+               "For 5 Zone PVAV 2: Zone Core_top ZN has a ventilation effectiveness of 0.22.  Increasing to 0.6 by increasing minimum damper position from 0.2 to 0.34.",
+               "For 5 Zone PVAV 2: Zone Perimeter_top_ZN_3 ZN has a ventilation effectiveness of 0.51.  Increasing to 0.6 by increasing minimum damper position from 0.2 to 0.23.",
+               "For 5 Zone PVAV 2: the multizone outdoor air calculation method was applied.  A simple summation of the zone outdoor air requirements gives a value of 1519 cfm.  Applying the multizone method gives a value of 6949 cfm, with an original system ventilation effectiveness of 0.22.  After increasing the minimum damper position in 2 critical zones, the resulting requirement is 2532 cfm with a system ventilation effectiveness of 0.6.",
+               "Finished applying multizone vav OA sizing.",
+               "Started applying prototype HVAC assumptions.",
+               "For Prototype: 5 Zone PVAV 1 Fan: 9875cfm; Pressure Rise = 5.58in w.c.",
+               "For Prototype: 5 Zone PVAV 2 Fan: 10696cfm; Pressure Rise = 5.58in w.c.",
+               "For Prototype: 5 Zone PVAV Fan: 12560cfm; Pressure Rise = 5.58in w.c.",
+               "For 5 Zone PVAV 1 Fan: allowed_hp = 14.67HP; motor eff = 92.4%; total fan eff = 60% based on 9875 cfm.",
+               "For 5 Zone PVAV 2 Fan: allowed_hp = 15.89HP; motor eff = 93.0%; total fan eff = 60% based on 10696 cfm.",
+               "For 5 Zone PVAV Fan: allowed_hp = 18.66HP; motor eff = 93.0%; total fan eff = 60% based on 12560 cfm.",
+               "5 Zone PVAV requires an economizer because the total cooling capacity of 404674 Btu/hr exceeds the minimum capacity of 54000 Btu/hr.",
+               "5 Zone PVAV 1 requires an economizer because the total cooling capacity of 334131 Btu/hr exceeds the minimum capacity of 54000 Btu/hr.",
+               "5 Zone PVAV 2 requires an economizer because the total cooling capacity of 356672 Btu/hr exceeds the minimum capacity of 54000 Btu/hr.",
+               "Finished applying prototype HVAC assumptions.",
+               "Started applying HVAC efficiency standards for 90.1-2010 template.",
+               "For 5 Zone PVAV: Availability schedule is already set to OfficeMedium HVACOperationSchd.  Will assume this includes unoccupied shut down; no changes will be made.",
+               "For 5 Zone PVAV, ERV not required based on 20% OA flow, design supply air flow of 12560cfm, and climate zone ASHRAE 169-2013-4A.",
+               "For 5 Zone PVAV Fan: Part load fan power control is required for 18.3 HP fan.",
+               "For 5 Zone PVAV Fan: Set fan curve coefficients to reflect control type of 'Multi Zone VAV with Static Pressure Setpoint Reset'.",
+               "For 5 Zone PVAV: DCV is not required since the system has an economizer, but the min oa flow is 0 cfm, less than the minimum of 1200 cfm for systems with an economizer.",
+               "For 5 Zone PVAV: Supply air temperature reset is required.",
+               "For 5 Zone PVAV: Supply air temperature reset was enabled.  When OAT is greater than 70F, SAT is 55F.  When OAT is less than 50F, SAT is 60F.  It varies linearly in between these points.",
+               "For 5 Zone PVAV: Because the system has an economizer, it requires a motorized OA damper.",
+               "For 5 Zone PVAV: Min OA damper schedule is already set to OfficeMedium MinOA_MotorizedDamper_Sched, assume this includes correct motorized OA damper control.",
+               "For 5 Zone PVAV: Optimum start is required since design flow rate of 12560 cfm exceeds the limit of 10000 cfm.",
+               "For 5 Zone PVAV: Optimum start control enabled.",
+               "For 5 Zone PVAV 1: Availability schedule is already set to OfficeMedium HVACOperationSchd.  Will assume this includes unoccupied shut down; no changes will be made.",
+               "For 5 Zone PVAV 1, ERV not required based on 26% OA flow, design supply air flow of 9875cfm, and climate zone ASHRAE 169-2013-4A.",
+               "For 5 Zone PVAV 1 Fan: Part load fan power control is required for 14.5 HP fan.",
+               "For 5 Zone PVAV 1 Fan: Set fan curve coefficients to reflect control type of 'Multi Zone VAV with Static Pressure Setpoint Reset'.",
+               "For 5 Zone PVAV 1: DCV is not required since the system has an economizer, but the min oa flow is 0 cfm, less than the minimum of 1200 cfm for systems with an economizer.",
+               "For 5 Zone PVAV 1: Supply air temperature reset is required.",
+               "For 5 Zone PVAV 1: Supply air temperature reset was enabled.  When OAT is greater than 70F, SAT is 55F.  When OAT is less than 50F, SAT is 60F.  It varies linearly in between these points.",
+               "For 5 Zone PVAV 1: Because the system has an economizer, it requires a motorized OA damper.",
+               "For 5 Zone PVAV 1: Min OA damper schedule is already set to OfficeMedium MinOA_MotorizedDamper_Sched, assume this includes correct motorized OA damper control.",
+               "For 5 Zone PVAV 1: Optimum start is not required since design flow rate of 9875 cfm is below the limit of 10000 cfm.",
+               "For 5 Zone PVAV 2: Availability schedule is already set to OfficeMedium HVACOperationSchd.  Will assume this includes unoccupied shut down; no changes will be made.",
+               "For 5 Zone PVAV 2, ERV not required based on 24% OA flow, design supply air flow of 10696cfm, and climate zone ASHRAE 169-2013-4A.",
+               "For 5 Zone PVAV 2 Fan: Part load fan power control is required for 15.6 HP fan.",
+               "For 5 Zone PVAV 2 Fan: Set fan curve coefficients to reflect control type of 'Multi Zone VAV with Static Pressure Setpoint Reset'.",
+               "For 5 Zone PVAV 2: DCV is not required since the system has an economizer, but the min oa flow is 0 cfm, less than the minimum of 1200 cfm for systems with an economizer.",
+               "For 5 Zone PVAV 2: Supply air temperature reset is required.",
+               "For 5 Zone PVAV 2: Supply air temperature reset was enabled.  When OAT is greater than 70F, SAT is 55F.  When OAT is less than 50F, SAT is 60F.  It varies linearly in between these points.",
+               "For 5 Zone PVAV 2: Because the system has an economizer, it requires a motorized OA damper.",
+               "For 5 Zone PVAV 2: Min OA damper schedule is already set to OfficeMedium MinOA_MotorizedDamper_Sched, assume this includes correct motorized OA damper control.",
+               "For 5 Zone PVAV 2: Optimum start is required since design flow rate of 10696 cfm exceeds the limit of 10000 cfm.",
+               "For 5 Zone PVAV 2: Optimum start control enabled.",
+               "For 5 Zone PVAV 1 Fan: motor nameplate = 15HP, motor eff = 92.4%.",
+               "For 5 Zone PVAV 2 Fan: motor nameplate = 15HP, motor eff = 92.4%.",
+               "For 5 Zone PVAV Fan: motor nameplate = 20HP, motor eff = 93.0%.",
+               "For Main Service Water Loop Circulator Pump: brake hp = 0.0HP, motor nameplate = 0.0HP, motor eff = 52.86%.",
+               "For 90.1-2010: 5 Zone PVAV 1 2spd DX Clg Coil: AirCooled All Other Single Package Capacity = 334kBtu/hr; EER = 9.8",
+               "For 90.1-2010: 5 Zone PVAV 2 2spd DX Clg Coil: AirCooled All Other Single Package Capacity = 357kBtu/hr; EER = 9.8",
+               "For 90.1-2010: 5 Zone PVAV 2spd DX Clg Coil: AirCooled All Other Single Package Capacity = 405kBtu/hr; EER = 9.8",
+               "For 90.1-2010: 100gal Natural Gas Water Heater - 100kBtu/hr 0.808 Therm Eff; thermal efficiency = 0.808, skin-loss UA = 15Btu/hr-R",
+               "For 90.1-2010: 5 Zone PVAV 1 Main Gas Htg Coil: = 111kBtu/hr; Thermal Efficiency = 0.8",
+               "For 90.1-2010: 5 Zone PVAV 2 Main Gas Htg Coil: = 107kBtu/hr; Thermal Efficiency = 0.8",
+               "For 90.1-2010: 5 Zone PVAV Main Gas Htg Coil: = 101kBtu/hr; Thermal Efficiency = 0.8",
+               "Finished applying HVAC efficiency standards for 90.1-2010 template.",
+               "Using schedule OfficeMedium HVACOperationSchd serving area 1660.7 m^2, 33% of building area 4982.2 m^2 as the building HVAC operation schedule.",
+               "Started adding daylighting controls.",
+               "For Core_bottom, daylighting control not applicable because no exterior fenestration is present.",
+               "For Core_mid, daylighting control not applicable because no exterior fenestration is present.",
+               "For Core_top, daylighting control not applicable because no exterior fenestration is present.",
+               "For FirstFloor_Plenum, daylighting control not applicable because no exterior fenestration is present.",
+               "For MidFloor_Plenum, daylighting control not applicable because no exterior fenestration is present.",
+               "For Perimeter_bot_ZN_1: illuminance setpoint = 377.0 Lux",
+               "For Perimeter_bot_ZN_1: assuming only 68% of the primary sidelit area is daylightable based on typical design practice.",
+               "For Perimeter_bot_ZN_1: assuming only 32% of the secondary sidelit area is daylightable based on typical design practice.",
+               "For Perimeter_bot_ZN_1: sensor 1 controls 36% of the zone lighting.",
+               "For Perimeter_bot_ZN_2: illuminance setpoint = 377.0 Lux",
+               "For Perimeter_bot_ZN_2: assuming only 68% of the primary sidelit area is daylightable based on typical design practice.",
+               "For Perimeter_bot_ZN_2: assuming only 32% of the secondary sidelit area is daylightable based on typical design practice.",
+               "For Perimeter_bot_ZN_2: sensor 1 controls 37% of the zone lighting.",
+               "For Perimeter_bot_ZN_3: illuminance setpoint = 377.0 Lux",
+               "For Perimeter_bot_ZN_3: assuming only 68% of the primary sidelit area is daylightable based on typical design practice.",
+               "For Perimeter_bot_ZN_3: assuming only 32% of the secondary sidelit area is daylightable based on typical design practice.",
+               "For Perimeter_bot_ZN_3: sensor 1 controls 36% of the zone lighting.",
+               "For Perimeter_bot_ZN_4: illuminance setpoint = 377.0 Lux",
+               "For Perimeter_bot_ZN_4: assuming only 68% of the primary sidelit area is daylightable based on typical design practice.",
+               "For Perimeter_bot_ZN_4: assuming only 32% of the secondary sidelit area is daylightable based on typical design practice.",
+               "For Perimeter_bot_ZN_4: sensor 1 controls 37% of the zone lighting.",
+               "For Perimeter_mid_ZN_1: illuminance setpoint = 377.0 Lux",
+               "For Perimeter_mid_ZN_1: assuming only 68% of the primary sidelit area is daylightable based on typical design practice.",
+               "For Perimeter_mid_ZN_1: assuming only 32% of the secondary sidelit area is daylightable based on typical design practice.",
+               "For Perimeter_mid_ZN_1: sensor 1 controls 36% of the zone lighting.",
+               "For Perimeter_mid_ZN_2: illuminance setpoint = 377.0 Lux",
+               "For Perimeter_mid_ZN_2: assuming only 68% of the primary sidelit area is daylightable based on typical design practice.",
+               "For Perimeter_mid_ZN_2: assuming only 32% of the secondary sidelit area is daylightable based on typical design practice.",
+               "For Perimeter_mid_ZN_2: sensor 1 controls 37% of the zone lighting.",
+               "For Perimeter_mid_ZN_3: illuminance setpoint = 377.0 Lux",
+               "For Perimeter_mid_ZN_3: assuming only 68% of the primary sidelit area is daylightable based on typical design practice.",
+               "For Perimeter_mid_ZN_3: assuming only 32% of the secondary sidelit area is daylightable based on typical design practice.",
+               "For Perimeter_mid_ZN_3: sensor 1 controls 36% of the zone lighting.",
+               "For Perimeter_mid_ZN_4: illuminance setpoint = 377.0 Lux",
+               "For Perimeter_mid_ZN_4: assuming only 68% of the primary sidelit area is daylightable based on typical design practice.",
+               "For Perimeter_mid_ZN_4: assuming only 32% of the secondary sidelit area is daylightable based on typical design practice.",
+               "For Perimeter_mid_ZN_4: sensor 1 controls 37% of the zone lighting.",
+               "For Perimeter_top_ZN_1: illuminance setpoint = 377.0 Lux",
+               "For Perimeter_top_ZN_1: assuming only 68% of the primary sidelit area is daylightable based on typical design practice.",
+               "For Perimeter_top_ZN_1: assuming only 32% of the secondary sidelit area is daylightable based on typical design practice.",
+               "For Perimeter_top_ZN_1: sensor 1 controls 36% of the zone lighting.",
+               "For Perimeter_top_ZN_2: illuminance setpoint = 377.0 Lux",
+               "For Perimeter_top_ZN_2: assuming only 68% of the primary sidelit area is daylightable based on typical design practice.",
+               "For Perimeter_top_ZN_2: assuming only 32% of the secondary sidelit area is daylightable based on typical design practice.",
+               "For Perimeter_top_ZN_2: sensor 1 controls 37% of the zone lighting.",
+               "For Perimeter_top_ZN_3: illuminance setpoint = 377.0 Lux",
+               "For Perimeter_top_ZN_3: assuming only 68% of the primary sidelit area is daylightable based on typical design practice.",
+               "For Perimeter_top_ZN_3: assuming only 32% of the secondary sidelit area is daylightable based on typical design practice.",
+               "For Perimeter_top_ZN_3: sensor 1 controls 36% of the zone lighting.",
+               "For Perimeter_top_ZN_4: illuminance setpoint = 377.0 Lux",
+               "For Perimeter_top_ZN_4: assuming only 68% of the primary sidelit area is daylightable based on typical design practice.",
+               "For Perimeter_top_ZN_4: assuming only 32% of the secondary sidelit area is daylightable based on typical design practice.",
+               "For Perimeter_top_ZN_4: sensor 1 controls 37% of the zone lighting.",
+               "For TopFloor_Plenum, daylighting control not applicable because no exterior fenestration is present.",
+               "Finished adding daylighting controls.",
+               "The model started with 1267 objects and finished with 1200 objects after removing unused resource objects.",
+               "Total Time = 102sec."
+            ],
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "building_type",
+                  "value" : "MediumOffice"
+               },
+               {
+                  "name" : "template",
+                  "value" : "90.1-2010"
+               },
+               {
+                  "name" : "climate_zone",
+                  "value" : "ASHRAE 169-2013-4A"
+               },
+               {
+                  "name" : "epw_file",
+                  "value" : "Not Applicable"
+               }
+            ],
+            "step_warnings" : 
+            [
+               "[openstudio.standards.Schedules] Unable to determine building hours of operation schedule. Treating the building as if there is no HVAC system schedule.",
+               "[openstudio.standards.Infiltration.nist_infiltration] Unable to determine the building HVAC schedule. Treating the building as if there is no HVAC system with outdoor air. This may be appropriate for design sizing, particularly heating design sizing. If this is not the case, input a schedule argument, or assign one to an air loop in the model.",
+               "[openstudio.standards.Model] Cannot find the VT for the simple glazing material named U 0.55 SHGC 0.4 Simple Glazing, a default value of 0.81 is used.",
+               "[openstudio.standards.Model] Cannot find the VT for the simple glazing material named U 0.85 SHGC 0.4 Simple Glazing, a default value of 0.81 is used.",
+               "[openstudio.standards.Model] Find object search criteria returned 2 results, the first one will be returned. Called from :/ruby/3.2.0/gems/openstudio-standards-0.8.5/lib/openstudio-standards/standards/Standards.Model.rb:3340:in `model_find_and_add_construction'. \n Search criteria: \n {\"template\"=>\"90.1-2010\", \"climate_zone_set\"=>\"ClimateZone 4\", \"intended_surface_type\"=>\"Skylight\", \"standards_construction_type\"=>\"Glass with Curb\", \"building_category\"=>\"Nonresidential\"}, capacity =  \n  All results: \n {\"climate_zone_set\"=>\"ClimateZone 4\", \"intended_surface_type\"=>\"Skylight\", \"standards_construction_type\"=>\"Glass with Curb\", \"building_category\"=>\"Nonresidential\", \"construction\"=>\"U 1.17 SHGC 0.49 Simple Glazing\", \"minimum_percent_of_surface\"=>0, \"maximum_percent_of_surface\"=>2, \"assembly_maximum_u_value\"=>1.17, \"assembly_maximum_u_value_unit\"=>\"Btu/h-ft2-F\", \"u_value_includes_interior_film_coefficient\"=>true, \"u_value_includes_exterior_film_coefficient\"=>true, \"assembly_maximum_f_factor\"=>nil, \"assembly_maximum_f_factor_unit\"=>\"Btu-in/h-ft2-F\", \"assembly_maximum_c_factor\"=>nil, \"assembly_maximum_c_factor_unit\"=>\"Btu/h-ft2-F\", \"orientation\"=>nil, \"minimum_projection_factor\"=>nil, \"maximum_projection_factor\"=>nil, \"assembly_maximum_solar_heat_gain_coefficient\"=>0.49, \"assembly_minimum_visible_transmittance\"=>nil, \"assembly_minimum_vt_shgc\"=>nil}\n{\"climate_zone_set\"=>\"ClimateZone 4\", \"intended_surface_type\"=>\"Skylight\", \"standards_construction_type\"=>\"Glass with Curb\", \"building_category\"=>\"Nonresidential\", \"construction\"=>\"U 1.17 SHGC 0.39 Simple Glazing\", \"minimum_percent_of_surface\"=>2.001, \"maximum_percent_of_surface\"=>5, \"assembly_maximum_u_value\"=>1.17, \"assembly_maximum_u_value_unit\"=>\"Btu/h-ft2-F\", \"u_value_includes_interior_film_coefficient\"=>true, \"u_value_includes_exterior_film_coefficient\"=>true, \"assembly_maximum_f_factor\"=>nil, \"assembly_maximum_f_factor_unit\"=>\"Btu-in/h-ft2-F\", \"assembly_maximum_c_factor\"=>nil, \"assembly_maximum_c_factor_unit\"=>\"Btu/h-ft2-F\", \"orientation\"=>nil, \"minimum_projection_factor\"=>nil, \"maximum_projection_factor\"=>nil, \"assembly_maximum_solar_heat_gain_coefficient\"=>0.39, \"assembly_minimum_visible_transmittance\"=>nil, \"assembly_minimum_vt_shgc\"=>nil}",
+               "[openstudio.standards.Model] Find object search criteria returned 2 results, the first one will be returned. Called from :/ruby/3.2.0/gems/openstudio-standards-0.8.5/lib/openstudio-standards/standards/Standards.Model.rb:3079:in `model_add_construction'. \n Search criteria: \n {\"name\"=>\"U 1.17 SHGC 0.49 Simple Glazing\"}, capacity =  \n  All results: \n {\"name\"=>\"U 1.17 SHGC 0.49 Simple Glazing\", \"intended_surface_type\"=>nil, \"standards_construction_type\"=>nil, \"insulation_layer\"=>nil, \"skylight_framing\"=>nil, \"materials\"=>",
+               "[openstudio.standards.Model] Cannot find the VT for the simple glazing material named U 1.17 SHGC 0.49 Simple Glazing, a default value of 0.81 is used.",
+               "[openstudio.energyplus.SqlFile] Using EnergyPlusVersion version 25.2.0 which should have 'Year' field, but it's always zero",
+               "[openstudio.standards.Model] Find object search criteria returned 2 results, the first one will be returned. Called from :/ruby/3.2.0/gems/openstudio-standards-0.8.5/lib/openstudio-standards/standards/ashrae_90_1/ashrae_90_1_2010/ashrae_90_1_2010.AirLoopHVAC.rb:382:in `air_loop_hvac_energy_recovery_ventilator_flow_limit'. \n Search criteria: \n {\"template\"=>\"90.1-2010\", \"climate_zone\"=>\"4A\"}, capacity =  \n  All results: \n {\"climate_zone\"=>\"4A\", \"under_8000_hours\"=>\"Any\", \"nontransient_dwelling\"=>\"Any\", \"percent_oa_0_to_10\"=>nil, \"percent_oa_10_to_20\"=>nil, \"percent_oa_20_to_30\"=>nil, \"percent_oa_30_to_40\"=>5500, \"percent_oa_40_to_50\"=>4500, \"percent_oa_50_to_60\"=>3500, \"percent_oa_60_to_70\"=>2000, \"percent_oa_70_to_80\"=>1000, \"percent_oa_greater_than_80\"=>0, \"design_conditions\"=>\"Heating\", \"energy_recovery_effectiveness\"=>0.5, \"enthalpy_recovery_ratio\"=>nil, \"sensible_energy_recovery_ratio\"=>nil}\n{\"climate_zone\"=>\"4A\", \"under_8000_hours\"=>\"Any\", \"nontransient_dwelling\"=>\"Any\", \"percent_oa_0_to_10\"=>nil, \"percent_oa_10_to_20\"=>nil, \"percent_oa_20_to_30\"=>nil, \"percent_oa_30_to_40\"=>5500, \"percent_oa_40_to_50\"=>4500, \"percent_oa_50_to_60\"=>3500, \"percent_oa_60_to_70\"=>2000, \"percent_oa_70_to_80\"=>1000, \"percent_oa_greater_than_80\"=>0, \"design_conditions\"=>\"Cooling\", \"energy_recovery_effectiveness\"=>0.5, \"enthalpy_recovery_ratio\"=>nil, \"sensible_energy_recovery_ratio\"=>nil}",
+               "[openstudio.standards.Model] Find object search criteria returned 2 results, the first one will be returned. Called from :/ruby/3.2.0/gems/openstudio-standards-0.8.5/lib/openstudio-standards/standards/ashrae_90_1/ashrae_90_1_2010/ashrae_90_1_2010.AirLoopHVAC.rb:382:in `air_loop_hvac_energy_recovery_ventilator_flow_limit'. \n Search criteria: \n {\"template\"=>\"90.1-2010\", \"climate_zone\"=>\"4A\"}, capacity =  \n  All results: \n {\"climate_zone\"=>\"4A\", \"under_8000_hours\"=>\"Any\", \"nontransient_dwelling\"=>\"Any\", \"percent_oa_0_to_10\"=>nil, \"percent_oa_10_to_20\"=>nil, \"percent_oa_20_to_30\"=>nil, \"percent_oa_30_to_40\"=>5500, \"percent_oa_40_to_50\"=>4500, \"percent_oa_50_to_60\"=>3500, \"percent_oa_60_to_70\"=>2000, \"percent_oa_70_to_80\"=>1000, \"percent_oa_greater_than_80\"=>0, \"design_conditions\"=>\"Heating\", \"energy_recovery_effectiveness\"=>0.5, \"enthalpy_recovery_ratio\"=>nil, \"sensible_energy_recovery_ratio\"=>nil}\n{\"climate_zone\"=>\"4A\", \"under_8000_hours\"=>\"Any\", \"nontransient_dwelling\"=>\"Any\", \"percent_oa_0_to_10\"=>nil, \"percent_oa_10_to_20\"=>nil, \"percent_oa_20_to_30\"=>nil, \"percent_oa_30_to_40\"=>5500, \"percent_oa_40_to_50\"=>4500, \"percent_oa_50_to_60\"=>3500, \"percent_oa_60_to_70\"=>2000, \"percent_oa_70_to_80\"=>1000, \"percent_oa_greater_than_80\"=>0, \"design_conditions\"=>\"Cooling\", \"energy_recovery_effectiveness\"=>0.5, \"enthalpy_recovery_ratio\"=>nil, \"sensible_energy_recovery_ratio\"=>nil}",
+               "[openstudio.standards.Model] Find object search criteria returned 2 results, the first one will be returned. Called from :/ruby/3.2.0/gems/openstudio-standards-0.8.5/lib/openstudio-standards/standards/ashrae_90_1/ashrae_90_1_2010/ashrae_90_1_2010.AirLoopHVAC.rb:382:in `air_loop_hvac_energy_recovery_ventilator_flow_limit'. \n Search criteria: \n {\"template\"=>\"90.1-2010\", \"climate_zone\"=>\"4A\"}, capacity =  \n  All results: \n {\"climate_zone\"=>\"4A\", \"under_8000_hours\"=>\"Any\", \"nontransient_dwelling\"=>\"Any\", \"percent_oa_0_to_10\"=>nil, \"percent_oa_10_to_20\"=>nil, \"percent_oa_20_to_30\"=>nil, \"percent_oa_30_to_40\"=>5500, \"percent_oa_40_to_50\"=>4500, \"percent_oa_50_to_60\"=>3500, \"percent_oa_60_to_70\"=>2000, \"percent_oa_70_to_80\"=>1000, \"percent_oa_greater_than_80\"=>0, \"design_conditions\"=>\"Heating\", \"energy_recovery_effectiveness\"=>0.5, \"enthalpy_recovery_ratio\"=>nil, \"sensible_energy_recovery_ratio\"=>nil}\n{\"climate_zone\"=>\"4A\", \"under_8000_hours\"=>\"Any\", \"nontransient_dwelling\"=>\"Any\", \"percent_oa_0_to_10\"=>nil, \"percent_oa_10_to_20\"=>nil, \"percent_oa_20_to_30\"=>nil, \"percent_oa_30_to_40\"=>5500, \"percent_oa_40_to_50\"=>4500, \"percent_oa_50_to_60\"=>3500, \"percent_oa_60_to_70\"=>2000, \"percent_oa_70_to_80\"=>1000, \"percent_oa_greater_than_80\"=>0, \"design_conditions\"=>\"Cooling\", \"energy_recovery_effectiveness\"=>0.5, \"enthalpy_recovery_ratio\"=>nil, \"sensible_energy_recovery_ratio\"=>nil}"
+            ]
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "wwr" : 0.34999999999999998
+         },
+         "measure_dir_name" : "SetWindowToWallRatio",
+         "result" : 
+         {
+            "completed_at" : "20260205T191413Z",
+            "measure_class_name" : "SetWindowToWallRatio",
+            "measure_display_name" : "Set Window to Wall Ratio",
+            "measure_name" : "set_window_to_wall_ratio",
+            "measure_taxonomy" : "Envelope.Fenestration",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "example-uid-placeholder-window",
+            "measure_version_id" : "e2a88ee6-bbff-47b3-a546-2f213c4e8723",
+            "measure_version_modified" : "20260205T165609Z",
+            "measure_xml_checksum" : "252E2C71",
+            "started_at" : "20260205T191413Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_info" : 
+            [
+               "Setting WWR to 0.35"
+            ],
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "wwr",
+                  "value" : 0.34999999999999998
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "r_value" : 16.5
+         },
+         "measure_dir_name" : "SetWallInsulation",
+         "result" : 
+         {
+            "completed_at" : "20260205T191413Z",
+            "measure_class_name" : "SetWallInsulation",
+            "measure_display_name" : "Set Wall Insulation (Target Assembly R)",
+            "measure_name" : "set_wall_insulation",
+            "measure_taxonomy" : "Envelope.Opaque",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "example-uid-placeholder",
+            "measure_version_id" : "0ab5969f-cfa9-43ed-a7ae-bc25b8b0ebd1",
+            "measure_version_modified" : "20260205T183222Z",
+            "measure_xml_checksum" : "8296E2DB",
+            "started_at" : "20260205T191413Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_info" : 
+            [
+               "Target assembly R-IP: 16.5 (RSI=2.906).",
+               "Fixed layers RSI (cladding+gypsum): 0.154.",
+               "Insulation thickness set to 0.0825 m (k=0.03).",
+               "Achieved assembly R-IP (3-layer): 16.5 (RSI=2.906).",
+               "Applied construction 'Parametric Wall (Assembly R-16.5 IP)' to 24 exterior wall surfaces."
+            ],
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "r_value",
+                  "value" : 16.5
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "r_value" : 20.300000000000001
+         },
+         "measure_dir_name" : "SetRoofInsulation",
+         "result" : 
+         {
+            "completed_at" : "20260205T191414Z",
+            "measure_class_name" : "SetRoofInsulation",
+            "measure_display_name" : "Set Roof Insulation (Target Assembly R)",
+            "measure_name" : "set_roof_insulation",
+            "measure_taxonomy" : "Envelope.Fenestration",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "example-uid-placeholder-window",
+            "measure_version_id" : "80ef9071-f315-428e-9512-8bf7f50560d8",
+            "measure_version_modified" : "20260205T183217Z",
+            "measure_xml_checksum" : "252E2C71",
+            "started_at" : "20260205T191414Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_info" : 
+            [
+               "Target assembly R-IP: 20.3 (RSI=3.575).",
+               "Fixed layers RSI (membrane+board): 0.125.",
+               "Insulation thickness set to 0.1035 m (k=0.03).",
+               "Achieved assembly R-IP (3-layer): 20.3 (RSI=3.575).",
+               "Applied construction 'Parametric Roof (Assembly R-20.3 IP)' to 1 surfaces."
+            ],
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "r_value",
+                  "value" : 20.300000000000001
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "r_value" : 5.5999999999999996
+         },
+         "measure_dir_name" : "SetFloorInsulation",
+         "result" : 
+         {
+            "completed_at" : "20260205T191416Z",
+            "measure_class_name" : "SetFloorInsulation",
+            "measure_display_name" : "Set Floor Insulation (Target Assembly R)",
+            "measure_name" : "set_floor_insulation",
+            "measure_taxonomy" : "Envelope.Opaque",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "uid-floor-insulation",
+            "measure_version_id" : "a7fc7d6e-eb87-463b-8f26-e8ffd38c6a75",
+            "measure_version_modified" : "20260205T183207Z",
+            "measure_xml_checksum" : "B179600D",
+            "started_at" : "20260205T191415Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_info" : 
+            [
+               "No ground-contact Floor surfaces found; nothing changed."
+            ],
+            "step_result" : "NA",
+            "step_values" : 
+            [
+               {
+                  "name" : "r_value",
+                  "value" : 5.5999999999999996
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "const_coeff" : 0,
+            "create_if_missing" : true,
+            "flow_per_area" : 0.00083000000000000001,
+            "temp_coeff" : 0,
+            "wind2_coeff" : 0,
+            "wind_coeff" : 0.224
+         },
+         "measure_dir_name" : "SetInfiltrationWeatherDriven",
+         "result" : 
+         {
+            "completed_at" : "20260205T191417Z",
+            "measure_class_name" : "SetInfiltrationWeatherDriven",
+            "measure_display_name" : "Set Infiltration (Weather-Driven)",
+            "measure_name" : "set_infiltration_weather_driven",
+            "measure_taxonomy" : "Airflow.Infiltration",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "2a0e7e3a-8b7a-4a5f-9d7a-0b6c7f6a1c2d",
+            "measure_version_id" : "ca12b9e9-66c6-48f8-8629-ee70c5d4d1ac",
+            "measure_version_modified" : "20260205T184255Z",
+            "measure_xml_checksum" : "BAADFA93",
+            "started_at" : "20260205T191417Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_info" : 
+            [
+               "Set weather-driven infiltration on 31 objects.",
+               "Base: 0.00083 m3/s/m2(exterior). Coeffs: A=0.0, B=0.0, C=0.224, D=0.0."
+            ],
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "flow_per_area",
+                  "value" : 0.00083000000000000001
+               },
+               {
+                  "name" : "const_coeff",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "temp_coeff",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "wind_coeff",
+                  "value" : 0.224
+               },
+               {
+                  "name" : "wind2_coeff",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "create_if_missing",
+                  "value" : true
+               }
+            ],
+            "step_warnings" : []
+         }
+      }
+   ],
+   "updated_at" : "20260205T192146Z",
+   "weather_file" : "/work/weather/USA_TX_Houston-Bush.Intercontinental.AP.722430_TMYx.2009-2023.epw"
+}
